@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "SarimNoob",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "SarimNoob",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "Muaviaa.aternos.me",
+    "port": 46557,
     "version": "",
     "try-creative": false
   },
@@ -31,15 +31,15 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Sarim is Noob",
+        "Everybody say Sarim is Noob!",
+        "Muavia is Pro"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 20,
+    "max-reconnect-delay": 40
   },
   "movement": {
     "enabled": true,
@@ -60,7 +60,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,8 +69,8 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
